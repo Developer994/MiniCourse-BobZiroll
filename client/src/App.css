@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  height: 900px;
+  background-color: #1c1c1c;
+  font-family: 'Inter', sans-serif;
+}
+
+.App {
+  background-color: #23252c;
+  width: 550px;
+  height: 868px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoContainer {
+  background-color: #1a1b21;
+  height: 780px;
+  width: 317px;
+}
+
+.h1Tag {
+  background-image: url('./images/Portrait_Placeholder.png');
+  background-repeat: no-repeat;
+  background-size: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0 0;
+}
+
+/* personalInfo and buttons are 399px togather */
+.personInfo {
+  display: flex;
+  justify-content: center;
+  color: white;
+  height: 120px;
+}
+
+ol {
+  height: 0;
+  margin: 21px 40px 0 0;
+}
+
+li {
+  /* display: flex;
+  justify-content: space-bet; */
+  height: 30px;
+  list-style: none;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.occupation {
+  font-weight: 400;
+  font-size: 12.8px;
+  color: #f3bf99;
+  margin-top: 10px;
+}
+
+.email {
+  font-weight: 400;
+  font-size: 10.24px;
+  margin-left: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  height: 0;
+  margin: 0;
+}
+
+.btn1,
+.btn2 {
+  background-color: white;
+  margin: 1px 8px 0 8px;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+}
+
+.btn1Div {
+  display: flex;
+  justify-content: center;
+  margin: -10px 0;
+  background: none;
+  height: 10px;
+}
+
+.emailText {
+  background: none;
+  height: 0;
+}
+
+.fa-solid {
+  background: none;
+  height: 0;
+  margin: 2px 0;
+}
+
+/* 
+.App {
+  background-color: #23252c;
+  color: white;
+  margin: 0 auto;
+  width: 550px;
+  height: 868px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoContainer {
+  background-color: #1a1b21;
+
+  margin: 44px 0 0 0;
+}
+
+.h1Tag {
+  background-image: url('./images/Portrait_Placeholder.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 317px;
+  border-radius: 10px 10px 0 0;
+}
+
+.nameAndButton {
+  background-color: green;
+  height: 30px;
+  width: 100%;
+
+  height: 40px;
+} */ ;
