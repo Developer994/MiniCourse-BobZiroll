@@ -1,4 +1,7 @@
 import React from 'react';
+import About from './About';
+import Interests from './Interests';
+import Footer from './Footer';
 
 export default function Info() {
   return (
@@ -18,8 +21,16 @@ export default function Info() {
             <span className='emailText'> Email</span>
           </div>
         </button>
-        <button className='btn2'>LinkedIn</button>
-      </div>
+        <button className='btn2'>
+          <div className='btn2Div'>
+            <i class='fa-brands fa-linkedin'></i>
+            <span className='linkedinText'>LinkedIn</span>
+          </div>
+        </button>
+      </div>{' '}
+      <About />
+      <Interests />
+      <Footer />
     </div>
   );
 }
